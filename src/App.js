@@ -1,10 +1,16 @@
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import Footer from './components/footer';
+import Header from './components/header';
 
 function App() {
   return (
-    <div>
-      <h1>Hello, world!</h1>
-    </div>
+    <>
+      <Header />
+      <div style={{height:'600px'}}></div>
+      <Footer />
+    </>
   );
 }
 
