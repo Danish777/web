@@ -1,15 +1,15 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import Footer from './components/footer';
-import Header from './components/header';
+import HomePage from './pages/home';
 
 function App() {
   return (
     <>
-      <Header />
+    <HomePage />
+      {/* <Header />
       <div style={{height:'600px'}}></div>
-      <Footer />
+      <Footer /> */}
     </>
   );
 }
